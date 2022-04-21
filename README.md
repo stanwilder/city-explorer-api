@@ -20,12 +20,12 @@
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-Name of feature: City Explorer
+Name of feature: City Explorer API
 
 Estimate of time needed to complete: 5 hours
 
 Start time: 130pm
 
-Finish time: 950
+Finish time: 940
 
-Actual time needed to complete: 8 and a half hours.
+Actual time needed to complete: 8 hours and 20 minutes
