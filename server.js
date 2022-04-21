@@ -16,19 +16,26 @@ const PORT = process.env.PORT || 3002;
 // Routes
 app.get('/', (request, response) => {
   response.send('HI');
-});
+})
 
-
-
-
-
-
-
-
+app.get('/weather', (request, response) => {
+  console.log(request.query.name);
+  let name = request.query.name;
+  response.send(`Hello, ${name}`);
+})
 
 app.get('*', (resquest , response) => {
-  response.send('Its not here!!')
-)};
+  response.send('Its not here!!');
+})
+
+
+
+
+
+
+
+
+  
 // Errors
 
 
